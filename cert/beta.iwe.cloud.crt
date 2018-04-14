@@ -1,0 +1,87 @@
+Certificate:
+    Data:
+        Version: 3 (0x2)
+        Serial Number:
+            58:8f:04:3f:71:55:8e:c0:20:82:90:62:81:54:a2:5c
+    Signature Algorithm: sha256WithRSAEncryption
+        Issuer: CN=ca.beta.iwe.cloud
+        Validity
+            Not Before: Apr 13 09:47:31 2018 GMT
+            Not After : Apr 10 09:47:31 2028 GMT
+        Subject: CN=beta.iwe.cloud
+        Subject Public Key Info:
+            Public Key Algorithm: rsaEncryption
+                Public-Key: (2048 bit)
+                Modulus:
+                    00:e2:8b:24:7f:76:08:3a:a1:3e:07:ed:87:99:36:
+                    0c:0a:c8:ac:7b:6a:44:09:28:ea:f3:59:e0:ba:9d:
+                    30:ee:e2:1a:65:56:f3:19:db:fe:76:63:4a:23:93:
+                    cb:70:a4:1d:f4:f3:d4:14:b4:c4:3d:a0:d7:f2:9d:
+                    e4:28:4d:cc:cf:4f:64:5e:f6:bb:a0:7a:3c:9b:46:
+                    0f:96:02:eb:87:cc:74:02:0f:fe:7e:28:e9:cb:60:
+                    2e:b8:84:4d:64:04:48:21:d4:b9:e3:c3:56:6d:0a:
+                    33:e7:9e:b7:87:19:ee:a3:98:e6:8a:2b:98:8b:0d:
+                    a3:f4:4a:ee:8d:ba:7a:a4:2b:41:f6:8e:54:d8:4a:
+                    f0:56:71:7e:f4:e6:a4:19:15:02:d3:64:79:7c:a1:
+                    8e:ec:2e:8e:30:c4:58:83:37:86:73:f6:ce:19:8d:
+                    cc:ca:33:57:15:dd:96:9b:e5:50:be:69:50:cc:38:
+                    d3:27:7e:24:b8:14:e8:a8:36:f3:29:8d:27:68:62:
+                    75:b3:59:3f:14:27:bb:7c:23:4f:f4:77:e8:42:d7:
+                    94:49:91:da:fc:31:69:32:fc:4a:88:07:81:74:be:
+                    a0:8e:ea:d0:7d:13:5a:ea:b9:ec:46:d6:71:3c:aa:
+                    25:40:63:56:7d:02:96:a6:6a:5c:f5:3e:2f:5c:f3:
+                    e0:6d
+                Exponent: 65537 (0x10001)
+        X509v3 extensions:
+            X509v3 Basic Constraints: 
+                CA:FALSE
+            X509v3 Subject Key Identifier: 
+                B7:B1:66:4C:14:17:57:E7:A4:0D:31:69:72:56:62:39:F4:7D:9A:FC
+            X509v3 Authority Key Identifier: 
+                keyid:A7:7E:29:37:9E:B5:C4:BD:66:72:82:2E:FB:E4:E0:AA:47:C8:B1:17
+                DirName:/CN=ca.beta.iwe.cloud
+                serial:F0:CD:F7:69:10:86:DB:EC
+
+            X509v3 Extended Key Usage: 
+                TLS Web Server Authentication
+            X509v3 Key Usage: 
+                Digital Signature, Key Encipherment
+            X509v3 Subject Alternative Name: 
+                DNS:beta.iwe.cloud
+    Signature Algorithm: sha256WithRSAEncryption
+         75:49:1c:3c:b5:b1:de:d2:59:05:f1:99:fa:f5:64:ba:51:ff:
+         ae:10:de:43:0c:46:cc:c1:b0:d5:45:b8:33:5d:cd:49:9a:f7:
+         98:17:a3:ad:0b:54:f5:cd:18:47:5c:a2:cc:31:51:1d:81:03:
+         83:0d:f9:e1:8f:fe:70:28:e7:d1:d2:25:29:07:28:7c:3d:bd:
+         02:b4:c8:d5:6b:14:c3:1e:1c:3b:ca:dc:24:47:58:33:56:e5:
+         fb:b9:2d:69:73:94:51:a8:18:9f:6d:01:6a:38:2d:1e:38:d2:
+         2d:6b:98:a3:b9:03:c0:55:85:0e:7d:6a:d4:be:7e:09:13:f6:
+         37:38:5b:a7:b0:83:54:91:f7:48:6c:00:5c:05:49:44:03:fa:
+         3b:ad:9f:cd:b9:f8:8f:a7:7d:aa:63:3c:be:c4:02:ea:30:0c:
+         c1:54:3a:50:d5:6e:b1:d6:c1:91:23:a0:95:2b:5a:2d:f1:70:
+         b9:48:65:d0:57:9f:67:85:21:ef:2d:03:43:53:1a:72:86:59:
+         1d:5e:27:36:2a:d3:a6:c8:1f:56:11:1d:e2:0e:17:40:c3:76:
+         2b:05:b2:05:1f:46:51:52:13:77:0a:27:1d:29:36:99:0d:fd:
+         be:60:c4:ea:c0:44:93:27:6e:c9:11:44:d6:68:c5:52:d3:ab:
+         01:39:04:d0
+-----BEGIN CERTIFICATE-----
+MIIDeDCCAmCgAwIBAgIQWI8EP3FVjsAggpBigVSiXDANBgkqhkiG9w0BAQsFADAc
+MRowGAYDVQQDDBFjYS5iZXRhLml3ZS5jbG91ZDAeFw0xODA0MTMwOTQ3MzFaFw0y
+ODA0MTAwOTQ3MzFaMBkxFzAVBgNVBAMMDmJldGEuaXdlLmNsb3VkMIIBIjANBgkq
+hkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA4oskf3YIOqE+B+2HmTYMCsise2pECSjq
+81ngup0w7uIaZVbzGdv+dmNKI5PLcKQd9PPUFLTEPaDX8p3kKE3Mz09kXva7oHo8
+m0YPlgLrh8x0Ag/+fijpy2AuuIRNZARIIdS548NWbQoz5563hxnuo5jmiiuYiw2j
+9Erujbp6pCtB9o5U2ErwVnF+9OakGRUC02R5fKGO7C6OMMRYgzeGc/bOGY3MyjNX
+Fd2Wm+VQvmlQzDjTJ34kuBToqDbzKY0naGJ1s1k/FCe7fCNP9HfoQteUSZHa/DFp
+MvxKiAeBdL6gjurQfRNa6rnsRtZxPKolQGNWfQKWpmpc9T4vXPPgbQIDAQABo4G4
+MIG1MAkGA1UdEwQCMAAwHQYDVR0OBBYEFLexZkwUF1fnpA0xaXJWYjn0fZr8MEwG
+A1UdIwRFMEOAFKd+KTeetcS9ZnKCLvvk4KpHyLEXoSCkHjAcMRowGAYDVQQDDBFj
+YS5iZXRhLml3ZS5jbG91ZIIJAPDN92kQhtvsMBMGA1UdJQQMMAoGCCsGAQUFBwMB
+MAsGA1UdDwQEAwIFoDAZBgNVHREEEjAQgg5iZXRhLml3ZS5jbG91ZDANBgkqhkiG
+9w0BAQsFAAOCAQEAdUkcPLWx3tJZBfGZ+vVkulH/rhDeQwxGzMGw1UW4M13NSZr3
+mBejrQtU9c0YR1yizDFRHYEDgw354Y/+cCjn0dIlKQcofD29ArTI1WsUwx4cO8rc
+JEdYM1bl+7ktaXOUUagYn20BajgtHjjSLWuYo7kDwFWFDn1q1L5+CRP2Nzhbp7CD
+VJH3SGwAXAVJRAP6O62fzbn4j6d9qmM8vsQC6jAMwVQ6UNVusdbBkSOglStaLfFw
+uUhl0FefZ4Uh7y0DQ1MacoZZHV4nNirTpsgfVhEd4g4XQMN2KwWyBR9GUVITdwon
+HSk2mQ39vmDE6sBEkyduyRFE1mjFUtOrATkE0A==
+-----END CERTIFICATE-----
