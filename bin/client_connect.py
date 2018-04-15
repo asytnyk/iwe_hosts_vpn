@@ -1,4 +1,4 @@
-#!/etc/openvpn/bin/venv/bin/python3
+#!/usr/local/bin/venv/bin/python3
 ''' Check if client with this CommonName should be allowed to connect '''
 
 import errno
