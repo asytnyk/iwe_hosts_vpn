@@ -12,6 +12,8 @@ fi
 
 echo "{\"client_connect_url\": \"$CLIENT_CONNECT_URL\", \"client_connect_secret\": \"$CLIENT_CONNECT_SECRET\"}" > /etc/client_connect.json
 
+chmod 0666 /etc/hosts
+
 mkdir -p /dev/net
 if [ ! -c /dev/net/tun ]; then
 	mknod /dev/net/tun c 10 200

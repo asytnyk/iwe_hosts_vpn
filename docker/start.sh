@@ -3,6 +3,7 @@
 CLIENT_CONNECT_URL="https://beta.iwe.cloud/backend/vpn/hosts/client-connect/"
 CLIENT_CONNECT_SECRET="BF9guWTBFEyrUKX2Go6twtQt"
 
+#       -it --entrypoint /bin/sh \
 docker run \
 	-d \
 	--name iwe_hosts_vpn \
