@@ -6,7 +6,6 @@ import os
 import sys
 import requests
 import simplejson as json
-from filelock import Timeout, FileLock
 
 def main():
     ''' good old main '''
@@ -48,14 +47,6 @@ def main():
        and client_connect_json['vpn-name'] == 'hosts' \
        and client_connect_json['allow-connection'] == 'True':
         print('iWegard says that {} is good to connect'.format(common_name))
-
-        uuid = common_name
-        remote_ip = envdict['ifconfig_pool_remote_ip']
-
-        lock = FileLock('/tmp/hosts.lock')
-        with lock:
-            with open('/etc/hosts', 'a') as hosts:
-                hosts.write("{} {}\n".format(remote_ip, uuid))
         sys.exit(0)
 
     print('iWegard says that {} is NOT good to connect'.format(common_name))
