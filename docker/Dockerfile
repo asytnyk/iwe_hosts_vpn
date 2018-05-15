@@ -14,6 +14,7 @@ RUN chmod +x /usr/local/bin/boot.sh
 WORKDIR /etc/openvpn
 COPY cert cert
 COPY conf conf
+RUN rm -rf conf/client/*
 RUN chmod 600 cert/beta.iwe.cloud.key cert/ta.key
 
 EXPOSE 1194

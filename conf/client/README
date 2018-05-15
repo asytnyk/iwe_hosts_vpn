@@ -1,0 +1,1 @@
+This files are here for tracking only and are not included in the container. In production make sure these are at /mnt/stateful_partition/iwe/client_vpn_config
