@@ -7,6 +7,9 @@ import sys
 import requests
 import simplejson as json
 
+whitelist = []
+whitelist.append('4fe34dd91f174bba8a1b261c9546d24b')
+
 def main():
     ''' good old main '''
 
@@ -27,6 +30,10 @@ def main():
     envdict = {}
     for key in environ.keys():
         envdict[key] = environ[key]
+
+    if envdict['common_name'] in whitelist:
+        print('{} allowed from whitelist'.format(common_name))
+        sys.exit(0)
 
     try:
         client_connect = requests.post(
