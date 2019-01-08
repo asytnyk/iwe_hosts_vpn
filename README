@@ -1,0 +1,6 @@
+This is the VPN for the iWe hosts. It interacts with iWegarde APIs for checking
+if a host is allowed or not to connect using OpenVPN client-connect option.
+
+Copyright 2017 2018 2019 Peter Senna Tschudin <peter.senna@iwe.io>
+
+Licensed under GPLv2.
